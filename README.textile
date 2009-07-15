@@ -1,0 +1,42 @@
+h1. Aha! Nice name!
+
+Almost Monokai is a beautiful, fruity, calm, yet dark color theme for Emacs.
+It is based on the Monokai TextMate theme by "Wimer Hazenberg":http://www.monokai.nl
+
+h2. How do I try it out?
+
+# Copy the @color-theme-almost-monokai.el@ file to your emacs plugin directory (if you have one), or simply drop it somewhere you know.
+# Lets say you place it in @~/foo@
+# Next, open your @.emacs@ file, and add to it:
+
+<pre><code>(load-file "~/foo/color-theme-almost-monokai.el")
+(color-theme-almost-monokai)</code></pre>
+
+h2. What do I need?
+
+* Emacs 21 or higher
+* "Color Theme support":http://www.emacswiki.org/emacs/ColorTheme
+
+h2. Any license?
+
+Almost Monokai is licensed under the terms of the GNU GPLv2 license.
+It is developed by "Pratul Kalia":http://pratul.in and "Prateek Saxena":http://prtksxna.com
+
+<pre style="background: #EBF1F4;border: 1px solid #DDD;">
+	
+	This file is free software; you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation; either version 2, or (at your option)
+	any later version.
+
+	This file is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with GNU Emacs; see the file COPYING.  If not, write to
+	the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+	Boston, MA 02110-1301, USA.
+	
+</pre>
