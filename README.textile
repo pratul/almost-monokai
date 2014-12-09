@@ -1,7 +1,7 @@
 h1. Aha! Nice name!
 
 Almost Monokai is a beautiful, fruity, calm, yet dark color theme for Emacs.
-It is based on the Monokai TextMate theme by "Wimer Hazenberg":http://www.monokai.nl
+It is based on the Monokai TextMate theme by "Wimer Hazenberg":http://www.monokai.nl.
 
 !http://pratul.in/files/almost-monokai.png!
 
