@@ -27,6 +27,20 @@
 ; Color theme support is required.
 (require 'color-theme)
 
+; plist-to-alist removed in emacs 24, re-add it
+(if (version<= emacs-version "24")
+  () ; do nothing for >= version 24
+    (defun plist-to-alist (the-plist)
+      (defun get-tuple-from-plist (the-plist)
+        (when the-plist
+          (cons (car the-plist) (cadr the-plist))))
+      (let ((alist '()))
+        (while the-plist
+          (add-to-list 'alist (get-tuple-from-plist the-plist))
+          (setq the-plist (cddr the-plist)))
+        alist))
+  )
+
 ; Code start.
 (defun color-theme-almost-monokai ()
   (interactive)
